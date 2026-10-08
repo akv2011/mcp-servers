@@ -1,6 +1,6 @@
 # MCP servers
 
-MCP servers I have built, with what each one does, how it is secured, and how to connect it. Each server's README says which clients it was checked with on 2026-10-08; Claude Code connected to all four.
+MCP servers I have built, with what each one does, how it is secured, and how to connect it. Each server's README says which clients it was checked with on 2026-10-08; Claude Code connected to the three API-key and stdio servers and reached Outreach Guard's Google sign-in, whose full OAuth flow was run with an MCP client against the live URL.
 
 ## Servers
 

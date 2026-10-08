@@ -1,6 +1,6 @@
 # MCP servers
 
-MCP servers I have built, with what each one does, how it is secured, and how to connect it. Each server's README says which clients it was checked with on 2026-10-08; Claude Code connected to every API-key and stdio server and reached Outreach Guard's Google sign-in, whose full OAuth flow was run with an MCP client against the live URL.
+MCP servers I have built, with what each one does, how it is secured, and how to connect it. A printable overview of all of them is in [mcp-servers.pdf](mcp-servers.pdf). Each server's README says which clients it was checked with on 2026-10-08; Claude Code connected to every API-key and stdio server and reached Outreach Guard's Google sign-in, whose full OAuth flow was run with an MCP client against the live URL.
 
 ## Servers
 
@@ -30,7 +30,7 @@ MCP servers I have built, with what each one does, how it is secured, and how to
 
 ## Connecting
 
-Each server's README has the commands for the clients it supports. In short:
+Each server's README has the commands for the clients it supports. Gemini CLI lists a server as "Disabled" when the current folder is not trusted; trust the folder or start it with `--skip-trust`. In short:
 
 ```sh
 # remote server with OAuth: Claude Code finds the sign-in from the 401 challenge; finish it with /mcp
